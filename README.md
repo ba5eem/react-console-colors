@@ -24,5 +24,5 @@ I made this because I wanted to make it easier for finding my console logs in th
     require('react-console-colors');
 
     console.cyan('your text here');
-  
-  	![#00ffff](https://placehold.it/15/00ffff/000000?text=+) `your text here`
+
+		<p style='color:#00ffff'>your text here</p>
