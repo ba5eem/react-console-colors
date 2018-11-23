@@ -25,4 +25,4 @@ I made this because I wanted to make it easier for finding my console logs in th
 
     console.cyan('your text here');
 
-		- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
+		[(https://img.shields.io/badge/output%3A-your%20text%20here-blue.svg)]
