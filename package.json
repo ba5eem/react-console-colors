@@ -1,0 +1,22 @@
+{
+  "name": "react-console-colors",
+  "version": "0.0.0",
+  "description": "Adding colors to console logs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ba5eem/react-console-colors.git"
+  },
+  "keywords": [
+    "colors"
+  ],
+  "author": "ba5eem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ba5eem/react-console-colors/issues"
+  },
+  "homepage": "https://github.com/ba5eem/react-console-colors#readme"
+}
