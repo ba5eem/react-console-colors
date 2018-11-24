@@ -29,7 +29,7 @@ console.any('string', style)
 
     require('react-console-colors');
 
-    console.cyan('your text here');
+    console.cyan('this.props',this.props);
 
 ## Usage for console.any
 
@@ -40,7 +40,11 @@ console.any('string', style)
       'border-radius: 50px'
     ];
 
-    console.any('hello wolrd',style);
+    console.any('hello world',style);
+
+    FYI: console.any can only support two arguments:
+      - first: can be one of the following: String, Number, {}, []
+      - second: must be the style following the format above.
 
 <img src="./img.png" width="450"/>
 
