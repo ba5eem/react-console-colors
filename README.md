@@ -2,9 +2,9 @@
 Adding colors to console.logs inside browser inspector.
 =========
 
-I made this because I wanted to make it easier for finding my console logs in the browser, without having to use a bunch of random text symbols. I feel like this is a cleaner approach.
+I made this because I wanted to help my students find their console logs a little easier.
 
-This is adding methods to the console object, so requiring it once on entry file will make it globally accessible.
+This adds methods to the console object, so requiring it once on entry file will make it globally accessible.
 
 Colors supported(types):
 ```js
@@ -23,7 +23,7 @@ console.any('string', style)
 
 ## Installation
 
-  `npm install react-console-colors`
+  `npm install react-console-colors -d`
 
 ## Usage
 
