@@ -6,9 +6,18 @@ I made this because I wanted to help my students find their console logs a littl
 
 This adds methods to the console object, so requiring it once on entry file will make it globally accessible.
 
-Colors supported(types):
+## Installation
+
+  `npm install react-console-colors -D`
+
+##Limitations (colors):
+
+Types supported: String, Number, {}, []
+Support for only one argument, working on handling more
+
+Colors:
 ```js
-console.cyan('string', Number, {}, [])
+console.cyan(argument)
 console.red('string', Number, {}, [])
 console.green('string', Number, {}, [])
 console.yellow('string', Number, {}, [])
@@ -16,20 +25,16 @@ console.black('string', Number, {}, [])
 console.magenta('string', Number, {}, [])
 ```
 
-Pass your own style options into:
-```js
-console.any('string', style)
-```
-
-## Installation
-
-  `npm install react-console-colors -D`
-
 ## Usage
 
     require('react-console-colors');
 
     console.cyan('this.props',this.props);
+
+##Limitations(any):
+
+Types supported: String, Number
+Support for only one argument & one style option, see usage example:
 
 ## Usage for console.any
 
@@ -42,9 +47,6 @@ console.any('string', style)
 
     console.any('hello world',style);
 
-    FYI: console.any can only support two arguments:
-      - first: can be one of the following: String, Number, {}, []
-      - second: must be the style following the format above.
 
 <img src="./img.png" width="450"/>
 

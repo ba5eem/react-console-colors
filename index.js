@@ -20,8 +20,6 @@ var defaultStyle = [
     'border-radius: 50px'
 ];
 
-
-
 const any = (arg,style) => {
   if(style === undefined){
     style = defaultStyle;
@@ -33,32 +31,32 @@ const any = (arg,style) => {
 
 
 
-const cyan = (...arg) => {
+const cyan = (arg) => {
   let bgCyan = '\x1b[46m%s\x1b[0m';
   console.log(bgCyan, type(arg));
 };
 
-const red = (...arg) => {
+const red = (arg) => {
   let bgRed = '\x1b[41m%s\x1b[0m';
   console.log(bgRed, type(arg));
 };
 
-const green = (...arg) => {
+const green = (arg) => {
   let bgGreen = '\x1b[42m%s\x1b[0m';
   console.log(bgGreen, type(arg));
 };
 
-const yellow = (...arg) => {
+const yellow = (arg) => {
   let bgYellow = '\x1b[43m%s\x1b[0m';
   console.log(bgYellow, type(arg));
 };
 
-const black = (...arg) => {
+const black = (arg) => {
   let bgBlack = '\x1b[40m%s\x1b[0m';
   console.log(bgBlack, type(arg));
 };
 
-const magenta = (...arg) => {
+const magenta = (arg) => {
   let bgMagenta= '\x1b[45m%s\x1b[0m';
   console.log(bgMagenta, type(arg));
 };
