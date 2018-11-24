@@ -1,6 +1,6 @@
 {
   "name": "react-console-colors",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Adding colors to console logs",
   "main": "index.js",
   "scripts": {

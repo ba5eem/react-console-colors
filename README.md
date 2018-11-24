@@ -12,17 +12,18 @@ This adds methods to the console object, so requiring it once on entry file will
 
 ##Limitations (colors):
 
-Types supported: String, Number, {}, []
-Support for only one argument, working on handling more
+    Types supported: String, Number, {}, []
+
+    Support for only one argument, working on handling more
 
 Colors:
 ```js
 console.cyan(argument)
-console.red('string', Number, {}, [])
-console.green('string', Number, {}, [])
-console.yellow('string', Number, {}, [])
-console.black('string', Number, {}, [])
-console.magenta('string', Number, {}, [])
+console.red(argument)
+console.green(argument)
+console.yellow(argument)
+console.black(argument)
+console.magenta(argument)
 ```
 
 ## Usage
@@ -33,8 +34,9 @@ console.magenta('string', Number, {}, [])
 
 ##Limitations(any):
 
-Types supported: String, Number
-Support for only one argument & one style option, see usage example:
+    Types supported: String, Number
+
+    Support for only one argument & one style option, see usage example:
 
 ## Usage for console.any
 
