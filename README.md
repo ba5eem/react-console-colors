@@ -23,7 +23,7 @@ console.any('string', style)
 
 ## Installation
 
-  `npm install react-console-colors -d`
+  `npm install react-console-colors -D`
 
 ## Usage
 
