@@ -34,7 +34,7 @@ console.any('string', style)
 ## Usage for console.any
 
     var style = [
-      'background-color: salmon',
+      'background-color: cornflowerblue',
       'font-size: 30px',
       'color: white',
       'border-radius: 50px'
