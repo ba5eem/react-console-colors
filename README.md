@@ -30,7 +30,7 @@ console.magenta(argument)
 
     require('react-console-colors');
 
-    console.cyan('this.props',this.props);
+    console.cyan(this.props);
 
 ##Limitations(any):
 
