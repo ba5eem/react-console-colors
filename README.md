@@ -39,15 +39,16 @@ console.magenta(argument)
     Support for only one argument & one style option, see usage example:
 
 ## Usage for console.any
+```js
+var style = [
+  'background-color: cornflowerblue',
+  'font-size: 30px',
+  'color: white',
+  'border-radius: 50px'
+];
 
-    var style = [
-      'background-color: cornflowerblue',
-      'font-size: 30px',
-      'color: white',
-      'border-radius: 50px'
-    ];
-
-    console.any('hello world',style);
+console.any('hello world',style);
+```
 
 
 <img src="./img.png" width="450"/>
