@@ -1,6 +1,6 @@
 {
   "name": "react-console-colors",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Adding colors to console logs",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/ba5eem/react-console-colors.git"
   },
   "keywords": [
-    "colors"
+    "colors","react","development","scriptkiddie","dev","console","log","browser","inspector","style","prototype","color"
   ],
   "author": "ba5eem",
   "license": "MIT",

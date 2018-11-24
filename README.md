@@ -2,7 +2,7 @@
 Adding colors to console.logs inside browser inspector.
 =========
 
-I made this because I wanted to help my students find their console logs a little easier.
+I made this to make it easier/quicker to find console logs during development.
 
 This adds methods to the console object, so requiring it once on entry file will make it globally accessible.
 
