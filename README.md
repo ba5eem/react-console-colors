@@ -16,6 +16,11 @@ console.black('string', Number, {}, [])
 console.magenta('string', Number, {}, [])
 ```
 
+Pass your own style options into:
+```js
+console.any('string', style)
+```
+
 ## Installation
 
   `npm install react-console-colors`
@@ -25,6 +30,19 @@ console.magenta('string', Number, {}, [])
     require('react-console-colors');
 
     console.cyan('your text here');
+
+## Usage for console.any
+
+    var style = [
+      'background-color: salmon',
+      'font-size: 30px',
+      'color: white',
+      'border-radius: 50px'
+    ];
+
+    console.any('hello wolrd',style);
+
+<img src="./img.png" width="450"/>
 
 
 

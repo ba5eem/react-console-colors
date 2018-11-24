@@ -12,11 +12,27 @@ const type = (arg) => {
   }
 }
 
+var defaultStyle = [
+    'background-color: cornflowerblue',
+    'font-size: 30px',
+    'color: white',
+    'border-radius: 50px'
+];
+
+
+
+const any = (arg, style) => {
+  if(style === undefined){
+    style = defaultStyle;
+  }
+  console.log(`%c ${type(arg)} `, style.join(';'));
+}
+
 
 
 const cyan = (arg) => {
-	let bgCyan = '\x1b[46m%s\x1b[0m';
-	console.log(bgCyan, type(arg));
+  let bgCyan = '\x1b[46m%s\x1b[0m';
+  console.log(bgCyan, type(arg));
 };
 
 const red = (arg) => {
@@ -50,6 +66,7 @@ console.green = green;
 console.yellow = yellow;
 console.black = black;
 console.magenta = magenta;
+console.any = any;
 
 
 module.exports = console;
