@@ -27,10 +27,11 @@ console.magenta(argument)
 ```
 
 ## Usage
+```js
+require('react-console-colors');
 
-    require('react-console-colors');
-
-    console.cyan(this.props);
+console.cyan(this.props);
+```
 
 ##Limitations(any):
 
