@@ -69,6 +69,11 @@ console.black = black;
 console.magenta = magenta;
 console.any = any;
 
+String.prototype.cyan = cyan;
+Array.prototype.cyan = cyan;
+Object.prototype.cyan = cyan;
+Number.prototype.cyan = cyan;
 
-module.exports = console;
+
+module.exports = { console, String, Array, Object, Number };
 
