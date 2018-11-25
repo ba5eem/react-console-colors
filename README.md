@@ -4,7 +4,7 @@ Adding colors to console.logs inside browser inspector.
 
 I made this to make it easier/quicker to find console logs during development.
 
-This adds methods to the console object, so requiring it once on entry file will make it globally accessible.
+This adds methods using prototype, so requiring it once on entry file will make it globally accessible.
 
 ## Installation
 
@@ -18,19 +18,30 @@ This adds methods to the console object, so requiring it once on entry file will
 
 Colors:
 ```js
-console.cyan(argument)
-console.red(argument)
-console.green(argument)
-console.yellow(argument)
-console.black(argument)
-console.magenta(argument)
+.cyan()
+.green()
+.red()
+.black()
+.yellow()
+.magenta()
 ```
 
 ## Usage
 ```js
 require('react-console-colors');
 
-console.cyan(this.props);
+let string = 'Hello World';
+let array = ['Hello World'];
+let number = 12345;
+let object = {
+  name: 'hello',
+  type: 'world'
+}
+
+string.cyan()
+array.red()
+number.magenta()
+object.green()
 ```
 
 ##Limitations(any):

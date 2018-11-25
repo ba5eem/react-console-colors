@@ -27,52 +27,83 @@ const any = (arg,style) => {
   console.log(`%c ${type(arg)} `, style.join(';'));
 }
 
+let bgCyan = '\x1b[46m%s\x1b[0m';
+let bgRed = '\x1b[41m%s\x1b[0m';
+let bgGreen = '\x1b[42m%s\x1b[0m';
+let bgYellow = '\x1b[43m%s\x1b[0m';
+let bgBlack = '\x1b[40m%s\x1b[0m';
+let bgMagenta= '\x1b[45m%s\x1b[0m';
 
 
 
 
-const cyan = (arg) => {
-  let bgCyan = '\x1b[46m%s\x1b[0m';
-  console.log(bgCyan, type(arg));
-};
+function cyan(){
+  console.log(bgCyan, type(this));
+}
 
-const red = (arg) => {
-  let bgRed = '\x1b[41m%s\x1b[0m';
-  console.log(bgRed, type(arg));
-};
+function red(){
+  console.log(bgRed, type(this));
+}
 
-const green = (arg) => {
-  let bgGreen = '\x1b[42m%s\x1b[0m';
-  console.log(bgGreen, type(arg));
-};
+function green(){
+  console.log(bgGreen, type(this));
+}
 
-const yellow = (arg) => {
-  let bgYellow = '\x1b[43m%s\x1b[0m';
-  console.log(bgYellow, type(arg));
-};
+function yellow(){
+  console.log(bgYellow, type(this));
+}
 
-const black = (arg) => {
-  let bgBlack = '\x1b[40m%s\x1b[0m';
-  console.log(bgBlack, type(arg));
-};
+function black(){
+  console.log(bgBlack, type(this));
+}
 
-const magenta = (arg) => {
-  let bgMagenta= '\x1b[45m%s\x1b[0m';
-  console.log(bgMagenta, type(arg));
-};
+function magenta(){
+  console.log(bgMagenta, type(this));
+}
 
-console.cyan = cyan;
-console.red = red;
-console.green = green;
-console.yellow = yellow;
-console.black = black;
-console.magenta = magenta;
-console.any = any;
 
+
+// CYAN
 String.prototype.cyan = cyan;
 Array.prototype.cyan = cyan;
 Object.prototype.cyan = cyan;
 Number.prototype.cyan = cyan;
+
+// RED
+String.prototype.red = red;
+Array.prototype.red = red;
+Object.prototype.red = red;
+Number.prototype.red = red;
+
+
+// GREEN
+String.prototype.green = green;
+Array.prototype.green = green;
+Object.prototype.green = green;
+Number.prototype.green = green;
+
+
+// YELLOW
+String.prototype.yellow = yellow;
+Array.prototype.yellow = yellow;
+Object.prototype.yellow = yellow;
+Number.prototype.yellow = yellow;
+
+
+// BLACK
+String.prototype.black = black;
+Array.prototype.black = black;
+Object.prototype.black = black;
+Number.prototype.black = black;
+
+
+// MAGENTA
+String.prototype.magenta = magenta;
+Array.prototype.magenta = magenta;
+Object.prototype.magenta = magenta;
+Number.prototype.magenta = magenta;
+
+console.any = any;
 
 
 module.exports = { console, String, Array, Object, Number };
